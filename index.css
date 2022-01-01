@@ -1,0 +1,161 @@
+*{
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+.main{
+    background-color:blue;
+    width:100vw;
+    /* height:5vh; */
+    display:flex;
+    flex-wrap: wrap;
+    position:sticky;
+    top:0px;
+    
+
+}
+.left_main{
+
+    flex:1;
+    height:5vh;
+    display:flex;
+    flex-wrap:wrap;
+    gap:2vw;
+     justify-content: center; 
+     padding:10px;
+    /* align-items: center; */
+    
+
+
+}
+.right_main{
+    /* background-color: bisque; */
+    flex:1;
+    height:5vh;
+    display:flex;
+    flex-wrap: wrap;
+    gap:3vw;
+    justify-content: center;
+    padding:10px;
+
+    
+}
+.sub_main{
+    background-color: white;
+    width:100vw;
+    height:5vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    display:sticky;
+    top:30px;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+
+}
+.btn ,.btn1{
+    border:none;
+    outline:none;
+    width:130px;
+    color:white;
+    cursor: pointer;
+    
+}h3{
+    color:white;
+    cursor:pointer;
+}
+.btn1{
+    background-color: blue;
+}
+.btn{
+    color:blue;
+    font-weight: bold;
+}
+.content{
+    /* background-color: blueviolet; */
+    width:100vw;
+    /* height:100vh; */
+    display:flex;
+    flex-wrap:wrap;
+    gap:1vw;
+}
+.left_content{
+    /* background-color: aquamarine; */
+    flex:1;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+    
+
+}
+.right_content{
+    background-color: white;
+    flex:3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:65vh;
+    width:100vw;
+    margin:20px;
+    display: flex;
+    gap:3.5vw;
+    padding:17px;
+
+    
+
+}
+.right_middle{
+    flex:1;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.right_end{
+
+    flex:1;
+
+}.right_start{
+    display:flex;
+    flex-direction: column;
+    gap:2;
+}.select1{
+    border:none;
+    outline:none;
+    margin-left: 20px;
+    
+
+}
+hr{
+    margin:20px;
+    height:0.1px;
+}.price{
+    display:flex;
+    flex-direction: column;
+}
+li{
+    line-height: 30px;
+}.secound{
+    background-color: blue;
+    width:100vw;
+    height:200px;
+}.assure{
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+}.select2{
+    border:none;
+    outline:none;
+    padding:10px;
+}
